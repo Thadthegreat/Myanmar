@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo sa Myanmar</title>
+  <style>
+    body {
+      font-family: 'Myanmar Text', Arial, sans-serif;
+      background-image: url('file:///C:/Users/MAUWIN24/Desktop/coding%20ang%20stuff/FIL%20PT%20website/20160802-myanmar-tourism.jpeg'); /* Replace with your background image path */
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      color: #4c4c47;
+    }
+    nav {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Black faded navigation */
+      position: fixed;
+      top: 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #d19c1d; /* Golden hover color */
+    }
+    .fact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      margin-top: 80px;
+    }
+    .fact img {
+      width: 500px;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .fact-text {
+      flex: 1;
+      padding: 20px;
+      font-size: 1.5em;
+      line-height: 1.6;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .fact:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="facts.html">Facts</a>
+   
+    <a href="tourism.html" class="active">Tourism</a>
+    <a href="panitikan.html">Panitikan</a>
+    <a href="credits.html">Credits</a>
+  </nav>
+  
+  <style>
+    nav {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Black faded navigation */
+      position: fixed;
+      top: 0;
+      padding: 5px 0; /* Smaller padding */
+      text-align: center;
+      z-index: 1000;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px; /* Smaller margins */
+      font-size: 1.1em; /* Reduced font size */
+      font-weight: bold;
+      padding: 10px 15px; /* Smaller padding for the buttons */
+      transition: background-color 0.3s, transform 0.3s;
+      display: inline-block;
+      border-radius: 6px; /* Slightly rounded corners */
+    }
+    nav a:hover {
+      color: #ffffff;
+      background-color: #d19c1d; /* Golden hover color */
+      transform: scale(1.05); /* Slight scaling on hover */
+    }
+    nav a.active {
+      border-bottom: 2px solid #d19c1d; /* Add a bottom border to indicate active tab */
+      color: #d19c1d; /* Change the text color to golden */
+    }
+  </style>
+  
+
+  <div class="fact">
+    <img src="file:///C:/Users/MAUWIN24/Desktop/coding%20ang%20stuff/FIL%20PT%20website/Bagan-Temples.jpg" alt="Bagan">
+    <p class="fact-text">1. Ang Bagan ay isa sa mga pinakamalaking atraksyon sa Myanmar, na kilala sa mga sinaunang templo at kahanga-hangang tanawin.</p>
+  </div>
+
+  <div class="fact">
+    <img src="file:///C:/Users/MAUWIN24/Desktop/coding%20ang%20stuff/FIL%20PT%20website/inle%20lake.jpg" alt="Inle Lake">
+    <p class="fact-text">2. Ang Inle Lake ay tanyag sa mga turista dahil sa mga kakaibang tradisyon ng mga mangingisda at ang mga tahanang itinayo sa ibabaw ng lawa.</p>
+  </div>
+
+  <div class="fact">
+    <img src="file:///C:/Users/MAUWIN24/Desktop/coding%20ang%20stuff/FIL%20PT%20website/pagoda.jpg" alt="Shwedagon Pagoda">
+    <p class="fact-text">3. Ang Shwedagon Pagoda sa Yangon ay isang dambana ng mga Budista at isa sa mga pinakabanal na lugar sa Myanmar.</p>
+  </div>
+
+</body>
+</html>
